@@ -8,7 +8,7 @@ namespace AS2223_4G_INF_Prof_Figure
 {
     public class Figura
     {
-        int lati;
+        protected int lati;
         protected string nome;
 
         public Figura()

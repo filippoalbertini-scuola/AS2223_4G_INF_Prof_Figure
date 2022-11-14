@@ -1,32 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace AS2223_4G_INF_Prof_Figure
 {
-    public class Quadrato : Figura
+    public class Cerchio : Figura
     {
-        double lato;
+        double raggio;
 
-        public Quadrato(double lato)
+        public Cerchio(double raggio)
         {
-            nome = "Quadrato";
-            lati = 4;
+            nome = "Cerchio";
+            lati = 1;
 
-            this.lato = lato;
+            this.raggio = raggio;
         }
-
         public override double Area()
         {
-            return lato * lato;
+            return Math.PI * raggio * raggio;
         }
 
         public override double Perimetro()
         {
-            return 4 * lato;
+            return 2 * Math.PI * raggio;
         }
     }
 }

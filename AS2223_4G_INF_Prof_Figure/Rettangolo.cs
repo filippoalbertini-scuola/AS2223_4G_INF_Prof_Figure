@@ -13,6 +13,7 @@ namespace AS2223_4G_INF_Prof_Figure
         public Rettangolo(double b, double altezza)
         {
             nome = "Rettangolo";
+            lati = 4;
 
             this.b = b;
             this.altezza = altezza;
