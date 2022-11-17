@@ -9,12 +9,12 @@ namespace AS2223_4G_INF_Prof_Figure
     public class Figura
     {
         protected int lati;
-        protected string nome;
+        public string Nome { get; set; }
 
         public Figura()
         {
             lati = 0;
-            nome = "Figura generica";   
+            Nome = "Figura generica";   
         }
 
         public virtual double Area() { return 0; }

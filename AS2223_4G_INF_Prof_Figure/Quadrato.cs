@@ -13,7 +13,7 @@ namespace AS2223_4G_INF_Prof_Figure
 
         public Quadrato(double lato)
         {
-            nome = "Quadrato";
+            Nome = "Quadrato";
             lati = 4;
 
             this.lato = lato;

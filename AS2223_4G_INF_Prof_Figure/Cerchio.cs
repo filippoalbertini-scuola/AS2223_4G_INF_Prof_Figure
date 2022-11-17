@@ -12,7 +12,7 @@ namespace AS2223_4G_INF_Prof_Figure
 
         public Cerchio(double raggio)
         {
-            nome = "Cerchio";
+            Nome = "Cerchio";
             lati = 1;
 
             this.raggio = raggio;
