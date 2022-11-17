@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using AS2223_4G_INF_Prof_Figure;
+﻿using Library;
 
 Console.WriteLine("Prof;AS 22/23 4G;17/11/22; Gestione figure geometriche - branch 2");
 

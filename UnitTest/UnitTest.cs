@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestPlatform.TestHost;
-using AS2223_4G_INF_Prof_Figure;
+using Library;
 
 #pragma warning disable NUnit2005 // Consider using Assert.That(actual, Is.EqualTo(expected)) instead of Assert.AreEqual(expected, actual)
 #pragma warning disable NUnit2007 // The actual value should not be a constant

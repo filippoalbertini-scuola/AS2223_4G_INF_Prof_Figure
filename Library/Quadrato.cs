@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AS2223_4G_INF_Prof_Figure
+namespace Library
 {
     public class Quadrato : Figura
     {

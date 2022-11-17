@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AS2223_4G_INF_Prof_Figure
+namespace Library
 {
     public class Cerchio : Figura
     {
